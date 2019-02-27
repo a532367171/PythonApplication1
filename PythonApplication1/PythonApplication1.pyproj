@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5f43e3e1-5073-4399-82f3-e8376498b17e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>module4-1.py</StartupFile>
+    <StartupFile>生成TFRecord.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -44,6 +44,9 @@
     </Compile>
     <Compile Include="PythonApplication1.py" />
     <Compile Include="人脸识别.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="生成TFRecord.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
